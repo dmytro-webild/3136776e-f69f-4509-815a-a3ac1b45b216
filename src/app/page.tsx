@@ -13,6 +13,11 @@ import TestimonialCardSixteen from '@/components/sections/testimonial/Testimonia
 import { Facebook, Home, Instagram, Linkedin, Twitter, Users, CheckCircle, Star } from "lucide-react";
 
 export default function LandingPage() {
+  const whatsappMessage = 'مرحبًا، أود الاستفسار عن أحد العقارات المعروضة على منصة النجوم السبعة للعقارات.';
+  const whatsappNumber = '971501234567'; // Placeholder for office WhatsApp
+  const encodedWhatsappMessage = encodeURIComponent(whatsappMessage);
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodedWhatsappMessage}`;
+
   return (
     <ThemeProvider
         defaultButtonVariant="icon-arrow"
@@ -149,6 +154,11 @@ export default function LandingPage() {
       title="العقارات الفاخرة المميزة"
       description="استعرض مجموعتنا المختارة بعناية من العقارات الأكثر فخامة وتميزاً في أرقى أحياء الإمارات. فرص استثمارية فريدة ومنازل الأحلام."
       tag="حصري"
+      buttons={[
+        {
+          text: "تواصل عبر واتساب",          href: whatsappLink
+        }
+      ]}
     />
   </div>
 
@@ -219,6 +229,11 @@ export default function LandingPage() {
       description="تعرف على فريقنا من الخبراء العقاريين المعتمدين والوكالات الموثوقة لدينا، مع تقييماتهم الحقيقية من العملاء."
       tag="تقييمات الوسطاء"
       tagIcon={Star}
+      buttons={[
+        {
+          text: "تحدث مع وسيط عبر واتساب",          href: whatsappLink
+        }
+      ]}
     />
   </div>
 
@@ -271,6 +286,9 @@ export default function LandingPage() {
           text: "تحدث مع خبير",          href: "/contact"},
         {
           text: "اطلب عقاراً",          href: "/contact"},
+        {
+          text: "تواصل عبر واتساب",          href: whatsappLink
+        }
       ]}
     />
   </div>
