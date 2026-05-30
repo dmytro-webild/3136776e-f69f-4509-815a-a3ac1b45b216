@@ -9,9 +9,8 @@ import HeroSplitKpi from '@/components/sections/hero/HeroSplitKpi';
 import MetricSplitMediaAbout from '@/components/sections/about/MetricSplitMediaAbout';
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
-import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import TestimonialCardSixteen from '@/components/sections/testimonial/TestimonialCardSixteen';
-import { Facebook, Home, Instagram, Linkedin, Twitter, Users } from "lucide-react";
+import { Facebook, Home, Instagram, Linkedin, Twitter, Users, CheckCircle, Star } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -179,14 +178,47 @@ export default function LandingPage() {
   </div>
 
   <div id="featured-agents" data-section="featured-agents">
-      <SocialProofOne
+      <TestimonialCardSixteen
+      animationType="slide-up"
       textboxLayout="default"
       useInvertedBackground={false}
-      names={[
-        "محمد السبع",        "فاطمة الزهراء",        "علي الخالد",        "مريم العلي",        "أحمد الشمسي",        "نور الهدى",        "يوسف النجار"]}
-      title="تعرف على وسطائنا الموثوقين"
-      description="فريق من الخبراء العقاريين المعتمدين والموثوقين، جاهزون لتقديم أفضل الاستشارات والمساعدة في رحلتك العقارية."
-      tag="الوسطاء المميزون"
+      testimonials={[
+        {
+          id: "a1",          name: "محمد السبع",          role: "وسيط عقاري معتمد",          company: "النجوم السبعة",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/handsome-bearded-guy-posing-against-white-wall_176420-30580.jpg",          imageAlt: "محمد السبع"
+        },
+        {
+          id: "a2",          name: "فاطمة الزهراء",          role: "خبير عقاري",          company: "النجوم السبعة",          rating: 4,
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-arabic-businesswoman_181624-51783.jpg",          imageAlt: "فاطمة الزهراء"
+        },
+        {
+          id: "a3",          name: "علي الخالد",          role: "مستشار استثماري",          company: "النجوم السبعة",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/young-arab-man-making-thumbs-up_23-2148135891.jpg",          imageAlt: "علي الخالد"
+        },
+        {
+          id: "a4",          name: "مريم العلي",          role: "أخصائية عقارات",          company: "النجوم السبعة",          rating: 4,
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-indian-woman-posing-sari_23-2149405629.jpg",          imageAlt: "مريم العلي"
+        },
+        {
+          id: "a5",          name: "أحمد الشمسي",          role: "مدير مبيعات",          company: "النجوم السبعة",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-of-young-man_181624-30691.jpg",          imageAlt: "أحمد الشمسي"
+        }
+      ]}
+      kpiItems={[
+        {
+          value: "+200",          label: "وسطاء معتمدون"
+        },
+        {
+          value: "4.8/5",          label: "متوسط التقييم"
+        },
+        {
+          value: "<CheckCircle />",          label: "وكالات موثوقة"
+        }
+      ]}
+      title="الوسطاء والوكالات المعتمدة"
+      description="تعرف على فريقنا من الخبراء العقاريين المعتمدين والوكالات الموثوقة لدينا، مع تقييماتهم الحقيقية من العملاء."
+      tag="تقييمات الوسطاء"
+      tagIcon={Star}
     />
   </div>
 
@@ -247,8 +279,8 @@ export default function LandingPage() {
       <FooterCard
       logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ERdh5u0Vj6gGA0J1BFm6r4sITF/uploaded-1780147263173-fsq26gp3.jpg"
       logoAlt="النجوم السبعة للعقارات"
-      logoText="النجوم السبعة للعقارات"
-      copyrightText="© 2026 | جميع الحقوق محفوظة لدى النجوم السبعة للعقارات"
+      logoText="النجوم السبعة للعقارات — منذ 2010"
+      copyrightText="© 2024 النجوم السبعة للعقارات. جميع الحقوق محفوظة."
       socialLinks={[
         {
           icon: Facebook,
