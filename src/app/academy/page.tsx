@@ -105,7 +105,6 @@ export default function AcademyPage() {
               variant: "radial-gradient"
             }}
             tag="انضم إلينا"
-            tagIcon={MessageCircle}
             title="ابدأ رحلتك نحو التميز العقاري اليوم"
             description="سجل الآن في أكاديمية التدريب الخاصة بنا واستفد من خبرات قادتنا في المجال."
             buttons={[
