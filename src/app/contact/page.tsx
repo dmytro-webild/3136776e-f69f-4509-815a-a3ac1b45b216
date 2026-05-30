@@ -27,33 +27,19 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "الرئيسية",
-          id: "/",
-        },
+          name: "الرئيسية",          id: "/"},
         {
-          name: "العقارات",
-          id: "/properties",
-        },
+          name: "العقارات",          id: "/properties"},
         {
-          name: "الفيديوهات",
-          id: "/videos",
-        },
+          name: "الفيديوهات",          id: "/videos"},
         {
-          name: "الوسطاء",
-          id: "/agents",
-        },
+          name: "الوسطاء",          id: "/agents"},
         {
-          name: "الأكاديمية",
-          id: "/academy",
-        },
+          name: "الأكاديمية",          id: "/academy"},
         {
-          name: "حاسبة التمويل",
-          id: "/calculator",
-        },
+          name: "حاسبة التمويل",          id: "/calculator"},
         {
-          name: "تواصل",
-          id: "/contact",
-        },
+          name: "تواصل",          id: "/contact"},
       ]}
       brandName="النجوم السبعة للعقارات"
     />
@@ -63,20 +49,15 @@ export default function LandingPage() {
       <ContactCTA
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="تواصل معنا"
       title="تواصل مع النجوم السبعة للعقارات"
       description="نحن هنا للإجابة على جميع استفساراتك وتقديم الدعم. تواصل معنا عبر الهاتف، البريد الإلكتروني، أو قم بزيارة مكتبنا."
       buttons={[
         {
-          text: "أرسل رسالة",
-          href: "#",
-        },
+          text: "أرسل رسالة",          href: "/contact/message"},
         {
-          text: "النجوم السبعة واتساب",
-          href: "https://wa.me/971501234567",
-        },
+          text: "النجوم السبعة واتساب",          href: "https://wa.me/971501234567"},
       ]}
     />
   </div>
@@ -87,20 +68,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "fq1",
-          title: "كيف يمكنني البحث عن عقار؟",
-          content: "يمكنك استخدام محرك البحث المتقدم في الصفحة الرئيسية لتصفية العقارات حسب المدينة، النوع، السعر، وغيرها من المعايير.",
-        },
+          id: "fq1",          title: "كيف يمكنني البحث عن عقار؟",          content: "يمكنك استخدام محرك البحث المتقدم في الصفحة الرئيسية لتصفية العقارات حسب المدينة، النوع، السعر، وغيرها من المعايير."},
         {
-          id: "fq2",
-          title: "هل يمكنني حجز موعد لمعاينة عقار؟",
-          content: "نعم، يمكنك حجز موعد معاينة مباشرة من صفحة تفاصيل العقار مع الوسيط المسؤول.",
-        },
+          id: "fq2",          title: "هل يمكنني حجز موعد لمعاينة عقار؟",          content: "نعم، يمكنك حجز موعد معاينة مباشرة من صفحة تفاصيل العقار مع الوسيط المسؤول."},
         {
-          id: "fq3",
-          title: "ما هي الفوائد من حساب العميل؟",
-          content: "يمكنك حفظ العقارات والفيديوهات المفضلة، التواصل مع الوسطاء، وتلقي إشعارات مخصصة.",
-        },
+          id: "fq3",          title: "ما هي الفوائد من حساب العميل؟",          content: "يمكنك حفظ العقارات والفيديوهات المفضلة، التواصل مع الوسطاء، وتلقي إشعارات مخصصة."},
       ]}
       title="أسئلة شائعة"
       description="ابحث عن إجابات لأسئلتك المتكررة حول العقارات، خدماتنا، وعملية الشراء أو الإيجار."
@@ -118,24 +90,16 @@ export default function LandingPage() {
       socialLinks={[
         {
           icon: Facebook,
-          href: "#",
-          ariaLabel: "Facebook",
-        },
+          href: "#",          ariaLabel: "Facebook"},
         {
           icon: Instagram,
-          href: "#",
-          ariaLabel: "Instagram",
-        },
+          href: "#",          ariaLabel: "Instagram"},
         {
           icon: Twitter,
-          href: "#",
-          ariaLabel: "Twitter",
-        },
+          href: "#",          ariaLabel: "Twitter"},
         {
           icon: Linkedin,
-          href: "#",
-          ariaLabel: "LinkedIn",
-        },
+          href: "#",          ariaLabel: "LinkedIn"},
       ]}
     />
   </div>

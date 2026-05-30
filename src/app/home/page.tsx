@@ -63,7 +63,7 @@ export default function LandingPage() {
         {
           text: "ابحث عن عقارك الآن",          href: "/properties"},
         {
-          text: "اطلب عقارك الخاص",          href: "/contact"},
+          text: "اطلب عقارك الخاص",          href: "/contact/property-request"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/low-angle-view-modern-building-with-glass-windows-sunlight_181624-11971.jpg?_wi=2"
       imageAlt="Luxurious real estate in Dubai"
@@ -262,9 +262,9 @@ export default function LandingPage() {
       description="فريقنا جاهز للإجابة على جميع استفساراتك وتقديم المساعدة اللازمة. لا تتردد في التواصل معنا اليوم."
       buttons={[
         {
-          text: "تحدث مع خبير",          href: "/contact"},
+          text: "تحدث مع خبير",          href: "/contact/expert"},
         {
-          text: "اطلب عقاراً",          href: "/contact"},
+          text: "اطلب عقاراً",          href: "/contact/property-request"},
       ]}
     />
   </div>
