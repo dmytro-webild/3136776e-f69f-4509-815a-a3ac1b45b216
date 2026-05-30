@@ -113,7 +113,7 @@ export default function AcademyPage() {
                 text: "سجل الآن",                href: "#academy-pricing"
               },
               {
-                text: "تحدث مع مستشار",                href: "/contact"
+                text: "تحدث مع مستشار",                href: "/contact/advisor"
               }
             ]}
           />
