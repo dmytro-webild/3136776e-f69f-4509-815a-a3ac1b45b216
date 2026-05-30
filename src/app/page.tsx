@@ -76,7 +76,7 @@ export default function LandingPage() {
         {
           text: "اطلب عقارك الخاص",          href: "/contact"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/low-angle-view-modern-building-with-glass-windows-sunlight_181624-11971.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/low-angle-view-modern-building-with-glass-windows-sunlight_181624-11971.jpg?_wi=1"
       imageAlt="Luxurious real estate in Dubai"
       mediaAnimation="slide-up"
       avatars={[
@@ -125,7 +125,7 @@ export default function LandingPage() {
           value: "أبوظبي",          title: "من دبي إلى"},
       ]}
       tag="قصتنا"
-      imageSrc="http://img.b2bpic.net/free-photo/modern-sauna-with-panoramic-windows-wooden-design_169016-70021.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/modern-sauna-with-panoramic-windows-wooden-design_169016-70021.jpg?_wi=1"
       imageAlt="Modern real estate office interior"
       mediaAnimation="slide-up"
     />
@@ -139,17 +139,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",          name: "فيلا فاخرة في تلال الإمارات",          price: "35,000,000 درهم",          variant: "للبيع",          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-albinism-spending-time-home_23-2150321723.jpg",          imageAlt: "Luxury villa in Emirates Hills"},
+          id: "p1",          name: "فيلا فاخرة في تلال الإمارات",          price: "35,000,000 درهم",          variant: "للبيع",          imageSrc: "http://img.b2bpic.net/free-photo/young-woman-with-albinism-spending-time-home_23-2150321723.jpg?_wi=1",          imageAlt: "Luxury villa in Emirates Hills"},
         {
-          id: "p2",          name: "شقة بنتهاوس بإطلالة على برج خليفة",          price: "12,000,000 درهم",          variant: "للبيع",          imageSrc: "http://img.b2bpic.net/free-photo/minimalist-architecture-space_23-2151912524.jpg",          imageAlt: "Penthouse apartment with Burj Khalifa view"},
+          id: "p2",          name: "شقة بنتهاوس بإطلالة على برج خليفة",          price: "12,000,000 درهم",          variant: "للبيع",          imageSrc: "http://img.b2bpic.net/free-photo/minimalist-architecture-space_23-2151912524.jpg?_wi=1",          imageAlt: "Penthouse apartment with Burj Khalifa view"},
         {
-          id: "p3",          name: "منزل تاون هاوس حديث في دبي هيلز",          price: "5,800,000 درهم",          variant: "للبيع",          imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-pathway-kilkenny-dukesmeadows_181624-27700.jpg",          imageAlt: "Modern townhouse in Dubai Hills"},
+          id: "p3",          name: "منزل تاون هاوس حديث في دبي هيلز",          price: "5,800,000 درهم",          variant: "للبيع",          imageSrc: "http://img.b2bpic.net/free-photo/vertical-shot-pathway-kilkenny-dukesmeadows_181624-27700.jpg?_wi=1",          imageAlt: "Modern townhouse in Dubai Hills"},
         {
-          id: "p4",          name: "فيلا شاطئية حصرية في نخلة جميرا",          price: "50,000,000 درهم",          variant: "للبيع",          imageSrc: "http://img.b2bpic.net/free-photo/modern-bathroom-with-big-mirror_1203-1497.jpg",          imageAlt: "Exclusive beachfront villa in Palm Jumeirah"},
+          id: "p4",          name: "فيلا شاطئية حصرية في نخلة جميرا",          price: "50,000,000 درهم",          variant: "للبيع",          imageSrc: "http://img.b2bpic.net/free-photo/modern-bathroom-with-big-mirror_1203-1497.jpg?_wi=1",          imageAlt: "Exclusive beachfront villa in Palm Jumeirah"},
         {
-          id: "p5",          name: "شقة فاخرة بغرفتي نوم في وسط مدينة دبي",          price: "3,200,000 درهم",          variant: "للإيجار",          imageSrc: "http://img.b2bpic.net/free-photo/woman-using-digital-assistant-her-tablet_23-2149108007.jpg",          imageAlt: "Luxury 2-bedroom apartment in Downtown Dubai"},
+          id: "p5",          name: "شقة فاخرة بغرفتي نوم في وسط مدينة دبي",          price: "3,200,000 درهم",          variant: "للإيجار",          imageSrc: "http://img.b2bpic.net/free-photo/woman-using-digital-assistant-her-tablet_23-2149108007.jpg?_wi=1",          imageAlt: "Luxury 2-bedroom apartment in Downtown Dubai"},
         {
-          id: "p6",          name: "فيلا واسعة بـ 5 غرف نوم في المرابع العربية",          price: "9,500,000 درهم",          variant: "للبيع",          imageSrc: "http://img.b2bpic.net/free-photo/view-bedroom-with-futuristic-decor-style_23-2151151759.jpg",          imageAlt: "Spacious 5-bedroom villa in Arabian Ranches"},
+          id: "p6",          name: "فيلا واسعة بـ 5 غرف نوم في المرابع العربية",          price: "9,500,000 درهم",          variant: "للبيع",          imageSrc: "http://img.b2bpic.net/free-photo/view-bedroom-with-futuristic-decor-style_23-2151151759.jpg?_wi=1",          imageAlt: "Spacious 5-bedroom villa in Arabian Ranches"},
       ]}
       title="العقارات الفاخرة المميزة"
       description="استعرض مجموعتنا المختارة بعناية من العقارات الأكثر فخامة وتميزاً في أرقى أحياء الإمارات. فرص استثمارية فريدة ومنازل الأحلام."
@@ -171,15 +171,15 @@ export default function LandingPage() {
         {
           id: "cat1",          title: "الفلل الفاخرة",          tags: [
             "للبيع",            "للإيجار"],
-          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=w788vr",          imageAlt: "Luxury Villa Icon"},
+          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/no-image.jpg?id=w788vr&_wi=1",          imageAlt: "Luxury Villa Icon"},
         {
           id: "cat2",          title: "الشقق العصرية",          tags: [
             "مفروشة",            "غير مفروشة"],
-          imageSrc: "http://img.b2bpic.net/free-vector/real-estate-infographic-with-skyscrapers_23-2147550989.jpg",          imageAlt: "Modern Apartment Icon"},
+          imageSrc: "http://img.b2bpic.net/free-vector/real-estate-infographic-with-skyscrapers_23-2147550989.jpg?_wi=1",          imageAlt: "Modern Apartment Icon"},
         {
           id: "cat3",          title: "العقارات التجارية",          tags: [
             "مكاتب",            "محلات"],
-          imageSrc: "http://img.b2bpic.net/free-vector/flat-design-house-silhouette_23-2150281528.jpg",          imageAlt: "Commercial Property Icon"},
+          imageSrc: "http://img.b2bpic.net/free-vector/flat-design-house-silhouette_23-2150281528.jpg?_wi=1",          imageAlt: "Commercial Property Icon"},
       ]}
       title="اكتشف العقارات حسب الفئة"
       description="سواء كنت تبحث عن فيلا عائلية، شقة عصرية، أو عقار تجاري، لدينا الخيار المثالي لك."
@@ -195,23 +195,23 @@ export default function LandingPage() {
       testimonials={[
         {
           id: "a1",          name: "محمد السبع",          role: "وسيط عقاري معتمد",          company: "النجوم السبعة",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/handsome-bearded-guy-posing-against-white-wall_176420-30580.jpg",          imageAlt: "محمد السبع"
+          imageSrc: "http://img.b2bpic.net/free-photo/handsome-bearded-guy-posing-against-white-wall_176420-30580.jpg?_wi=1",          imageAlt: "محمد السبع"
         },
         {
           id: "a2",          name: "فاطمة الزهراء",          role: "خبير عقاري",          company: "النجوم السبعة",          rating: 4,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-arabic-businesswoman_181624-51783.jpg",          imageAlt: "فاطمة الزهراء"
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-smiling-arabic-businesswoman_181624-51783.jpg?_wi=1",          imageAlt: "فاطمة الزهراء"
         },
         {
           id: "a3",          name: "علي الخالد",          role: "مستشار استثماري",          company: "النجوم السبعة",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-arab-man-making-thumbs-up_23-2148135891.jpg",          imageAlt: "علي الخالد"
+          imageSrc: "http://img.b2bpic.net/free-photo/young-arab-man-making-thumbs-up_23-2148135891.jpg?_wi=1",          imageAlt: "علي الخالد"
         },
         {
           id: "a4",          name: "مريم العلي",          role: "أخصائية عقارات",          company: "النجوم السبعة",          rating: 4,
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-indian-woman-posing-sari_23-2149405629.jpg",          imageAlt: "مريم العلي"
+          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-indian-woman-posing-sari_23-2149405629.jpg?_wi=1",          imageAlt: "مريم العلي"
         },
         {
           id: "a5",          name: "أحمد الشمسي",          role: "مدير مبيعات",          company: "النجوم السبعة",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-of-young-man_181624-30691.jpg",          imageAlt: "أحمد الشمسي"
+          imageSrc: "http://img.b2bpic.net/free-photo/portrait-of-young-man_181624-30691.jpg?_wi=1",          imageAlt: "أحمد الشمسي"
         }
       ]}
       kpiItems={[
@@ -245,19 +245,19 @@ export default function LandingPage() {
       testimonials={[
         {
           id: "t1",          name: "سارة محمد",          role: "مستثمرة",          company: "مجموعة الفجر",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1674.jpg",          imageAlt: "Sarah Mohammad"},
+          imageSrc: "http://img.b2bpic.net/free-photo/young-businessman-happy-expression_1194-1674.jpg?_wi=1",          imageAlt: "Sarah Mohammad"},
         {
           id: "t2",          name: "خالد أحمد",          role: "رجل أعمال",          company: "الشركة الدولية",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/muslim-woman-with-hijab-leaving-hotel-smiling-while-being-vacation_23-2149309153.jpg",          imageAlt: "Khaled Ahmed"},
+          imageSrc: "http://img.b2bpic.net/free-photo/muslim-woman-with-hijab-leaving-hotel-smiling-while-being-vacation_23-2149309153.jpg?_wi=1",          imageAlt: "Khaled Ahmed"},
         {
           id: "t3",          name: "ليلى حسن",          role: "مديرة تسويق",          company: "إبداع ديزاين",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/confident-office-employers-thumbing-up-smiling-two-happy-professional-businesswomen-standing-together-posing-meeting-room-teamwork-business-cooperation-concept_74855-6924.jpg",          imageAlt: "Laila Hassan"},
+          imageSrc: "http://img.b2bpic.net/free-photo/confident-office-employers-thumbing-up-smiling-two-happy-professional-businesswomen-standing-together-posing-meeting-room-teamwork-business-cooperation-concept_74855-6924.jpg?_wi=1",          imageAlt: "Laila Hassan"},
         {
           id: "t4",          name: "يوسف منصور",          role: "مهندس",          company: "العمران الحديث",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/happy-successful-mature-business-leader-with-laptop_74855-3534.jpg",          imageAlt: "Youssef Mansour"},
+          imageSrc: "http://img.b2bpic.net/free-photo/happy-successful-mature-business-leader-with-laptop_74855-3534.jpg?_wi=1",          imageAlt: "Youssef Mansour"},
         {
           id: "t5",          name: "فاطمة سعيد",          role: "طبيبة",          company: "مستشفى الأمل",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/business-people-handsome-corporate-man-suit-smiling-showing-thumbs-up-praise-work-good-job-saying-yes-standing-white-background_176420-49993.jpg",          imageAlt: "Fatima Said"},
+          imageSrc: "http://img.b2bpic.net/free-photo/business-people-handsome-corporate-man-suit-smiling-showing-thumbs-up-praise-work-good-job-saying-yes-standing-white-background_176420-49993.jpg?_wi=1",          imageAlt: "Fatima Said"},
       ]}
       kpiItems={[
         {
