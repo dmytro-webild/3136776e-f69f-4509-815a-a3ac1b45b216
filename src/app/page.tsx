@@ -133,17 +133,17 @@ export default function LandingPage() {
       useInvertedBackground={false}
       products={[
         {
-          id: "p1",          name: "فيلا فاخرة في تلال الإمارات",          price: "35,000,000 درهم",          variant: "للبيع",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ERdh5u0Vj6gGA0J1BFm6r4sITF/uploaded-1718041530379-villa-interior-1.jpg",          imageAlt: "Luxury villa interior in Emirates Hills"},
+          id: "p1",          name: "فيلا فاخرة في تلال الإمارات",          price: "35,000,000 درهم",          variant: "للبيع",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ERdh5u0Vj6gGA0J1BFm6r4sITF/uploaded-1718041530379-villa-interior-1.jpg?_wi=2",          imageAlt: "Luxury villa interior in Emirates Hills"},
         {
-          id: "p2",          name: "شقة بنتهاوس بإطلالة على برج خليفة",          price: "12,000,000 درهم",          variant: "للبيع",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ERdh5u0Vj6gGA0J1BFm6r4sITF/uploaded-1718041531235-penthouse-view-2.jpg",          imageAlt: "Penthouse living room with Burj Khalifa view"},
+          id: "p2",          name: "شقة بنتهاوس بإطلالة على برج خليفة",          price: "12,000,000 درهم",          variant: "للبيع",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ERdh5u0Vj6gGA0J1BFm6r4sITF/uploaded-1718041531235-penthouse-view-2.jpg?_wi=2",          imageAlt: "Penthouse living room with Burj Khalifa view"},
         {
-          id: "p3",          name: "منزل تاون هاوس حديث في دبي هيلز",          price: "5,800,000 درهم",          variant: "للبيع",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ERdh5u0Vj6gGA0J1BFm6r4sITF/uploaded-1718041532057-townhouse-exterior-3.jpg",          imageAlt: "Modern townhouse exterior in Dubai Hills"},
+          id: "p3",          name: "منزل تاون هاوس حديث في دبي هيلز",          price: "5,800,000 درهم",          variant: "للبيع",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ERdh5u0Vj6gGA0J1BFm6r4sITF/uploaded-1718041532057-townhouse-exterior-3.jpg?_wi=2",          imageAlt: "Modern townhouse exterior in Dubai Hills"},
         {
-          id: "p4",          name: "فيلا شاطئية حصرية في نخلة جميرا",          price: "50,000,000 درهم",          variant: "للبيع",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ERdh5u0Vj6gGA0J1BFm6r4sITF/uploaded-1718041532822-beach-villa-interior-4.jpg",          imageAlt: "Exclusive beachfront villa living area in Palm Jumeirah"},
+          id: "p4",          name: "فيلا شاطئية حصرية في نخلة جميرا",          price: "50,000,000 درهم",          variant: "للبيع",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ERdh5u0Vj6gGA0J1BFm6r4sITF/uploaded-1718041532822-beach-villa-interior-4.jpg?_wi=2",          imageAlt: "Exclusive beachfront villa living area in Palm Jumeirah"},
         {
-          id: "p5",          name: "شقة فاخرة بغرفتي نوم في وسط مدينة دبي",          price: "3,200,000 درهم",          variant: "للإيجار",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ERdh5u0Vj6gGA0J1BFm6r4sITF/uploaded-1718041533681-apartment-bedroom-5.jpg",          imageAlt: "Luxury 2-bedroom apartment master bedroom in Downtown Dubai"},
+          id: "p5",          name: "شقة فاخرة بغرفتي نوم في وسط مدينة دبي",          price: "3,200,000 درهم",          variant: "للإيجار",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ERdh5u0Vj6gGA0J1BFm6r4sITF/uploaded-1718041533681-apartment-bedroom-5.jpg?_wi=2",          imageAlt: "Luxury 2-bedroom apartment master bedroom in Downtown Dubai"},
         {
-          id: "p6",          name: "فيلا واسعة بـ 5 غرف نوم في المرابع العربية",          price: "9,500,000 درهم",          variant: "للبيع",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ERdh5u0Vj6gGA0J1BFm6r4sITF/uploaded-1718041534440-villa-pool-6.jpg",          imageAlt: "Spacious 5-bedroom villa with private pool in Arabian Ranches"},
+          id: "p6",          name: "فيلا واسعة بـ 5 غرف نوم في المرابع العربية",          price: "9,500,000 درهم",          variant: "للبيع",          imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3ERdh5u0Vj6gGA0J1BFm6r4sITF/uploaded-1718041534440-villa-pool-6.jpg?_wi=2",          imageAlt: "Spacious 5-bedroom villa with private pool in Arabian Ranches"},
       ]}
       title="العقارات الفاخرة المميزة"
       description="استعرض مجموعتنا المختارة بعناية من العقارات الأكثر فخامة وتميزاً في أرقى أحياء الإمارات. فرص استثمارية فريدة ومنازل الأحلام."
