@@ -38,17 +38,11 @@ export default function LandingPage() {
         {
           name: "الرئيسية",          id: "/"},
         {
-          name: "العقارات",          id: "/properties"},
+          name: "العقارات",          id: "#featured-properties"},
         {
-          name: "الفيديوهات",          id: "/videos"},
+          name: "الوسطاء",          id: "#featured-agents"},
         {
-          name: "الوسطاء",          id: "/agents"},
-        {
-          name: "الأكاديمية",          id: "/academy"},
-        {
-          name: "حاسبة التمويل",          id: "/calculator"},
-        {
-          name: "تواصل",          id: "/contact"},
+          name: "تواصل",          id: "#contact-cta"},
       ]}
       brandName="النجوم السبعة للعقارات"
     />
@@ -72,9 +66,9 @@ export default function LandingPage() {
       tag="النجوم السبعة للعقارات"
       buttons={[
         {
-          text: "ابحث عن عقارك الآن",          href: "/properties"},
+          text: "ابحث عن عقارك الآن",          href: "#featured-properties"},
         {
-          text: "اطلب عقارك الخاص",          href: "/contact"},
+          text: "اطلب عقارك الخاص",          href: "#contact-cta"},
       ]}
       imageSrc="http://img.b2bpic.net/free-photo/low-angle-view-modern-building-with-glass-windows-sunlight_181624-11971.jpg?_wi=1"
       imageAlt="Luxurious real estate in Dubai"
@@ -283,9 +277,9 @@ export default function LandingPage() {
       description="فريقنا جاهز للإجابة على جميع استفساراتك وتقديم المساعدة اللازمة. لا تتردد في التواصل معنا اليوم."
       buttons={[
         {
-          text: "تحدث مع خبير",          href: "/contact"},
+          text: "تحدث مع خبير",          href: "#contact-cta"},
         {
-          text: "اطلب عقاراً",          href: "/contact"},
+          text: "اطلب عقاراً",          href: "#contact-cta"},
         {
           text: "تواصل عبر واتساب",          href: whatsappLink
         }
