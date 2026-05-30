@@ -54,8 +54,7 @@ export default function AdminDashboardPage() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {[{
-                title: "إدارة المستخدمين",                description: "عرض، إضافة، تعديل، وحذف حسابات المستخدمين.",                href: "/admin/users"
+              {[{n                title: "إدارة المستخدمين",                description: "عرض، إضافة، تعديل، وحذف حسابات المستخدمين.",                href: "/admin/users"
               },
               {
                 title: "إدارة الوكالات",                description: "إدارة بيانات الوكالات العقارية والتحكم في صلاحياتها.",                href: "/admin/agencies"
