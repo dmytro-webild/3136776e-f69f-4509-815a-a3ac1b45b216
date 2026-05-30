@@ -6,7 +6,7 @@ import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleAp
 import FooterCard from '@/components/sections/footer/FooterCard';
 import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
 
-export default function PropertiesPage() {
+export default function NewProjectsPage() {
   const whatsappMessage = 'مرحبًا، أود الاستفسار عن أحد العقارات المعروضة على منصة النجوم السبعة للعقارات.';
   const whatsappNumber = '971501234567';
   const encodedWhatsappMessage = encodeURIComponent(whatsappMessage);
@@ -42,8 +42,8 @@ export default function PropertiesPage() {
         </div>
 
         <main className="min-h-screen p-8 text-center">
-          <h1 className="text-4xl font-bold mb-4">صفحة العقارات</h1>
-          <p className="text-lg">اكتشف مجموعتنا الواسعة من العقارات المعروضة.</p>
+          <h1 className="text-4xl font-bold mb-4">صفحة المشاريع الجديدة</h1>
+          <p className="text-lg">اكتشف أحدث المشاريع العقارية الواعدة.</p>
         </main>
 
         <div id="footer" data-section="footer">
